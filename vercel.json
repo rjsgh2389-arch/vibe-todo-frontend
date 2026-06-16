@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/todos/:path*",
+      "destination": "https://vibebackend-a8af86818dd7.herokuapp.com/todos/:path*"
+    },
+    {
+      "source": "/todos",
+      "destination": "https://vibebackend-a8af86818dd7.herokuapp.com/todos"
+    }
+  ]
+}
